@@ -1,48 +1,122 @@
-/*{
-    background-color: rgb(215, 223, 221);
-    margin: 0;
+body{
     box-sizing: border-box;
-    font-family: "open sana", 'Times New Roman', Times, serif;
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    line-height: 1.5;
+    background-color: #ecedf1;
+    padding: 0;
+    text-align: center;
 }
 
-header {
-    background-color: rgb(183, 213, 240);
+main{
     display: flex;
+    width: 100;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    background-color:  rgb(215, 215, 235);
 }
-
 .logo {
     height: auto;
     width: 150px;
-    background-color: rgb(183, 213, 240);
+    display: flex;
+    background-color:  rgb(229, 229, 239);
+
 }
 
 .logo img {
     width: 100%;
     border-radius: 20px;
+    background-color:  rgb(229, 229, 239);
+    margin: 20px;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(183, 213, 240);
     display: flex;
 }
 nav ul li{
-    background-color: rgb(183, 213, 240);
     align-items: center;
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 25px;
-    color: rgb(129, 175, 35);
-    background-color: rgb(183, 213, 240);
+    color: rgb(109, 192, 128);
     margin-left: 30px;
     padding: 6px 12px;
     
 }
+header{
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    background-color: rgb(229, 229, 239);
+}
+
+.banner-img {
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+
+.banner-text{
+    width: 900px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 240);
+}
+
+.banner-text h1{
+    color: rgb(117, 187, 132);
+}
+
+.banner-text p{
+    color: rgb(125, 190, 138);
+}
+
+section{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.hobbies img{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.hobbies p{
+    align-items: center;
+    padding: 20px;
+}
+.hobbies h2{
+    color: rgb(117, 117, 195);
+}
+
+.blue{
+    align-items: center;
+    padding: 10px;
+}
+ .blue h2{
+    color: rgb(106, 187, 124);
+    font-size: 30px;
+ }
+.blue h3{
+    color: rgb(127, 195, 142);
+}
+.blue p{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(195, 195, 222);
+}
+
