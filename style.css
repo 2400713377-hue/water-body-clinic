@@ -121,3 +121,25 @@ hr{
     background-color: rgb(195, 195, 222);
 }
 
+.sect{
+  background-image: url('Images/banner1.jpg'); 
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.element{
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url('Images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer{
+     background-color:  rgb(206, 206, 236);
+}
