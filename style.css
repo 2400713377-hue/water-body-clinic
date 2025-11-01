@@ -9,7 +9,7 @@ body{
     margin: 0;
     font-family: 'Trebuchet MS';
     line-height: 1.5;
-    background-color: #ecedf1;
+    background-color: #c2c5d2;
     padding: 0;
     text-align: center;
 }
@@ -20,13 +20,13 @@ main{
     justify-content: space-between;
     align-items: center;
     margin: 20px;
-    background-color:  rgb(215, 215, 235);
+    background-color:  rgb(167, 167, 196);
 }
 .logo {
     height: auto;
     width: 150px;
     display: flex;
-    background-color:  rgb(229, 229, 239);
+    background-color:  rgb(208, 208, 224);
 
 }
 
@@ -50,7 +50,7 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     font-size: 25px;
-    color: rgb(109, 192, 128);
+    color: rgb(56, 107, 68);
     margin-left: 30px;
     padding: 6px 12px;
     
@@ -61,7 +61,7 @@ header{
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    background-color: rgb(229, 229, 239);
+    background-color: rgb(220, 220, 227);
     max-width: 2000px;
 }
 
@@ -75,15 +75,15 @@ header{
 .banner-text{
     width: 900px;
     font-size: 20px;
-    background-color: rgb(230, 230, 240);
+    background-color: rgb(202, 202, 214);
 }
 
 .banner-text h1{
-    color: rgb(117, 187, 132);
+    color: rgb(63, 116, 74);
 }
 
 .banner-text p{
-    color: rgb(125, 190, 138);
+    color: rgb(83, 124, 91);
 }
 
 section{
@@ -170,12 +170,12 @@ hr{
 }
 
 footer{
-     background-color:  rgb(206, 206, 236);
+     background-color:  rgb(229, 229, 238);
      width: 100%;
      padding: 20px;
      margin: 20px;
       background: 
-    linear-gradient(rgba(255, 255, 255, 0.85), rgba(183, 182, 182, 0.85)),
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(157, 157, 172, 0.85)),
     url('Images/banner1.jpg');
      
 }
@@ -251,7 +251,7 @@ footer{
 }
 .title h3{
     text-align: center;
-    color: rgb(83, 83, 181);
+    color: rgb(50, 98, 59);
     
 }
 .subtitle{
@@ -259,7 +259,7 @@ footer{
     margin: 0 auto 80px;
     font-family: Trebuchet MS;
     width: 60%;
-    color: rgb(103, 103, 211);
+    color:  rgb(45, 81, 53);
 
 }
 
