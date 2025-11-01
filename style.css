@@ -302,10 +302,22 @@ input{
     text-align: center;
   }
 
+  section{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
   nav ul {
     flex-direction: column;
     gap: 10px;
   }
+
+  .banner-img {
+    width: 50%;
+    border-radius: 20px;
+
+}
 
   .banner-text {
     width: 80%;
@@ -328,6 +340,17 @@ input{
     flex-direction: column;
     padding: 10px;
   }
+
+  section{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+  .banner-img {
+    width: 50%;
+    border-radius: 20px;
+
+}
 
   nav ul li a {
     font-size: 18px;
@@ -361,6 +384,18 @@ input{
   nav ul li a {
     font-size: 16px;
   }
+
+  section{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+  .banner-img {
+    width: 50%;
+    border-radius: 20px;
+
+}
 
   .banner-text {
     font-size: 14px;
