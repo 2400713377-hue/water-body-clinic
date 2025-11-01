@@ -294,3 +294,84 @@ input{
     font-weight: 600;
     font-size: 1em;
 }
+
+/* Laptops / Medium Screens */
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner-text {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .hobbies img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .banner-img,
+  .banner-text {
+    width: 90%;
+  }
+
+  .banner-text {
+    font-size: 16px;
+  }
+
+  .blue h2 {
+    font-size: 24px;
+  }
+
+  .hobbies img {
+    width: 90%;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .banner-text {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .form-box {
+    width: 90%;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
